@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: demo
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: myuser
+        password: myuser
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        show-sql: true
+
+mybatis:
+    type-aliases-package: com:example:demo:entity
+    configuration:
+        map-underscore-to-camel-case: true
+        default-fetch-size: 100
+        default-statement-timeout: 30
