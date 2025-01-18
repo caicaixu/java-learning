@@ -152,6 +152,3 @@
 
 ### windows
 
-## cookie、header
-
-
