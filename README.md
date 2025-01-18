@@ -1,7 +1,5 @@
 # java-learning
 
-# Java后端开发
-
 ## 技术栈
 
 ### JavaSE
